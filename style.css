@@ -11,9 +11,13 @@ body {
 
 body p {
     color: #777777;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 300;
+}
 
+.navbar h3 {
+    color: #4A4A4A;
+    font-size: 35px;
 }
 
 /* Slider  */
@@ -35,11 +39,12 @@ header .carousel .carousel-item img {
 
 .carousel-caption p {
     color: #F4F4F4;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 30px;
     font-weight: 300;
 }
 
+/* media query  */
 @media screen and (max-width: 768px) {
     .carousel-caption h5 {
         font-size: 40px;
