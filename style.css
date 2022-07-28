@@ -17,32 +17,15 @@ body p {
 }
 
 /* Slider  */
-.corousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat scroll center scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
-
-}
-
-.corousel-item::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #000;
-    opacity: 0.7;
-}
-
 .carousel-caption {
-    bottom: 120px;
-    padding-left: 60px;
-    padding-right: 60px;
+    top: 30%;
 }
+
+header .carousel .carousel-item img {
+    min-height: 100vh;
+    object-fit: cover;
+}
+
 
 .carousel-caption h5 {
     font-size: 65px;
@@ -55,4 +38,12 @@ body p {
     font-size: 15px;
     line-height: 30px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 40px;
+    }
 }
